@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var NumbersCollection_1 = require("./NumbersCollection");
+var CharactersCollection_1 = require("./CharactersCollection");
+var LinkedList_1 = require("./LinkedList");
+var numberCollection = new NumbersCollection_1.NumbersCollection([12, 10, -5, 3, 7]);
+numberCollection.sort();
+console.log(numberCollection.data);
+var characterCollection = new CharactersCollection_1.CharacterCollection("ZbxAGj");
+characterCollection.sort();
+console.log(characterCollection.data);
+var linklist = new LinkedList_1.LinkedList();
+linklist.add(500);
+linklist.add(-40);
+linklist.add(0);
+linklist.sort();
+linklist.print();
